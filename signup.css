@@ -1,0 +1,109 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-image: url(pexels-kayode-balogun-169877002-12091126.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.form-container{
+display: flex;
+flex-direction: column;
+background-color: white 0.3; 
+backdrop-filter: blur(5px);
+padding-inline: 40px;
+
+font-size: 20px;
+margin-top: 5rem;
+border-radius: 20px;
+
+}
+.input-btn{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  
+}
+.input-btn input{
+  padding: 10px 25px;
+  border: none;
+  border-radius: 10px;
+  font-weight:50;
+  margin-bottom: 20px;
+  background-color: rgb(255, 255, 255);
+  font-size: medium;
+}
+.input-btn input:focus{
+  outline: none;
+  
+}
+
+.input-btn input:focus::placeholder{
+  position: absolute;
+  top: 1px;
+  font-size: 11px;
+  transition: 0.5s ease;
+}
+.text{
+  text-align: center;
+ 
+}
+.submit{
+
+ font-size: 1rem;
+ padding-inline: 20px;
+ padding-block: 7px;
+ background-color: rgb(255, 255, 255);
+ border: none;
+ border-radius: 10px;
+ cursor: pointer;
+ transition: 0.4s ease;
+}
+.submit:hover{
+  background-color: black;
+  color: white;
+  
+}
+.sign-up > p{ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  }
+  .sign-up a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
+    transition: 0.4s ease;
+  }
+  .sign-up a:hover{
+    color: black;
+    font-size: 18px;
+  }
+  .forgot a{
+    text-decoration: none;
+    color: white;
+    padding-left: 5px;
+    transition: 0.4s ease;
+  }
+  .forgot a:hover{
+    color: black;
+    font-size: 18px;
+  }
+  .terms a{
+  text-decoration: none;
+  color: black;    
+  
+  }
+  .terms a:hover{
+   
+    font-size: 19px;
+    transition: 0.5s ease;
+  }
